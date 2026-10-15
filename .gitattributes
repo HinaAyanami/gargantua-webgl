@@ -1,0 +1,7 @@
+# 统一下载后的行尾，避免 Windows 检出把脚本改成 CRLF
+* text=auto eol=lf
+
+# 二进制，不做行尾转换
+*.png binary
+*.jpg binary
+*.ico binary
