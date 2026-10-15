@@ -1,0 +1,17 @@
+{
+  "name": "gargantua-webgl",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Real-time black hole gravitational lensing in a single, dependency-free HTML file",
+  "license": "MIT",
+  "author": "HinaAyanami",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "shot": "node tools/shot.mjs",
+    "drag": "node tools/drag.mjs",
+    "zoom": "node tools/zoom.mjs"
+  }
+}
